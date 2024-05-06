@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .maincontainer {
+    width: calc(33.33% - 40px);
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .maincontainer h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .maincontainer img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .maincontainer h2 {
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+  
+  .maincontainer h4 {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .maincontainer {
+      width: calc(50% - 40px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .maincontainer {
+      width: calc(100% - 40px);
+    }
+  }
+  
